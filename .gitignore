@@ -1,0 +1,30 @@
+# Каталоги сборки
+build/
+build-*/
+cmake-build-*/
+
+# Локальные настройки Qt Creator
+.qtcreator/
+*.user
+*.user.*
+CMakeLists.txt.user*
+
+# Результаты сборки
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Файлы, создаваемые moc/uic/rcc
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Прочее
+.DS_Store
+Thumbs.db
